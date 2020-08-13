@@ -1,0 +1,35 @@
+.button{
+  padding: 10px 15px;
+  //border: 1px solid #c1c1c1;
+  //box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  border-style: none;
+  border-radius: 5px;
+  text-align: center;
+  text-transform: capitalize;
+  min-width: 100px;
+  //width: 100%;
+  color: rgba(0, 0, 0, 0.7);
+  &:focus{outline: none}
+  &__inform{
+    &:hover{
+      background-color: rgba(0, 123, 255, 0.8);
+      box-shadow: 0 0 10px rgba(0, 123, 255, 0.8);
+      //border: 1px solid rgba(0, 123, 255, 0.2);
+      cursor: pointer;
+      color: #fff;
+      //border-color:#000;
+    }
+  }
+
+  &__delete{
+    &:hover{
+      background-color: rgba(220, 53, 69, 0.8);
+      box-shadow: 0 0 10px rgba(220, 53, 69, 0.8);
+      cursor: pointer;
+      color: #fff;
+    }
+  }
+}
+.button-reset{
+
+}

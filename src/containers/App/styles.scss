@@ -1,0 +1,12 @@
+.app{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+input, select {
+  padding: 5px;
+  text-align: center;
+}

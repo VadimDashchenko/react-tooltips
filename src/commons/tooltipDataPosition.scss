@@ -1,0 +1,42 @@
+.left-bottom {
+  .img-item {
+    &__tooltip {
+      bottom: -5px;
+    }
+
+    &__img-block {
+      align-items: flex-start;
+    }
+  }
+}
+
+.center-right {
+  .img-item {
+    &__tooltip {
+      top: 45%;
+      right: -30%;
+    }
+  }
+}
+
+.center-left {
+  .img-item {
+    &__tooltip {
+      top: 45%;
+      left: -35%;
+    }
+  }
+}
+
+.center-bottom {
+  .img-item {
+    &__tooltip {
+      bottom: -5px;
+    }
+
+    &__img-block {
+      align-items: center;
+    }
+  }
+}
+

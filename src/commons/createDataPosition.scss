@@ -1,0 +1,20 @@
+.center-right {
+  top: 40%;
+  right: -185px;
+}
+
+.center-left {
+  top: 40%;
+  left: -185px;
+
+  &:before {
+    right: -10px;
+    left: 0 !important;
+  }
+}
+
+.center-bottom {
+  //top: 50%;
+  left: 14px;
+  bottom: -45px;
+}
